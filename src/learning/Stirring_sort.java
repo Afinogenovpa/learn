@@ -2,9 +2,11 @@ package learning;
 
 public class Stirring_sort extends Array{
 
+
     Stirring_sort(int size) {
         super(size);
     }
+
 
     public void stirring_sort(){
         int low = 0;
@@ -30,5 +32,5 @@ public class Stirring_sort extends Array{
             low+=1;
         }
     }
-    }
+}
 

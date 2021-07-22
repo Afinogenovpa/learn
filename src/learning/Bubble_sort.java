@@ -1,12 +1,13 @@
 package learning;
 
 
-
 public class Bubble_sort extends Array {
+
 
     Bubble_sort(int size) {
         super(size);
     }
+
 
     void bubble_sort(){
         int tmp = 0;
