@@ -28,34 +28,6 @@ public class Main {
 
 
 
-//
-//
-//    static double[] stirring_sort(double[] arr) {
-//        int low = 0;
-//        double tmp = 0;
-//        int high = arr.length - 1;
-//        while (low < high) {
-//            for (int i = 0; i < arr.length -1; i++) {
-//                if (arr[i] > arr[i + 1]) {
-//                    tmp = arr[i + 1];
-//                    arr[i + 1] = arr[i];
-//                    arr[i] = tmp;
-//                }
-//
-//            }
-//            high -= 1;
-//            for (int j = arr.length - 1; j > 0; j--) {
-//                if (arr[j] < arr[j - 1]) {
-//                    tmp = arr[j - 1];
-//                    arr[j - 1] = arr[j];
-//                    arr[j] = tmp;
-//                }
-//            }
-//            low+=1;
-//        }
-//        return arr;
-//    }
-//}
 
 
 

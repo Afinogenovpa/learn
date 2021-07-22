@@ -7,12 +7,10 @@ public class Array {
         array = new int[size];
     }
 
-    public int[] fill_array(int[] array){
+    public void fill_array(int[] array){
         for (int i = 0; i < array.length; i++) {
             array[i] = (int) ((Math.random() * 100));
         }
-        return array;
-
     }
 
     public void print_array(String sort, int[] array){
@@ -22,18 +20,5 @@ public class Array {
         }
         System.out.println();
     }
-
-
-
-
-//    int size;
-//    double[] array = new double[size];
-//
-//    static double[] fill_array(double[] arr){
-//        for (int i = 0; i < arr.length; i++) {
-//            arr[i] = (int) (Math.random() * 100);
-//        }
-//        return arr;
-//    }
 
 }

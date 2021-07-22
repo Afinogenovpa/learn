@@ -8,7 +8,7 @@ public class Bubble_sort extends Array {
         super(size);
     }
 
-    public int[] bubble_sort(){
+    void bubble_sort(){
         int tmp = 0;
         for (int i = 0; i < array.length; i++) {
             for (int j = array.length - 1; j > i; j--) {
@@ -19,6 +19,5 @@ public class Bubble_sort extends Array {
                 }
             }
         }
-        return array;
     }
 }

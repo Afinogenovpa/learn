@@ -6,7 +6,7 @@ public class Stirring_sort extends Array{
         super(size);
     }
 
-    public int[] stirring_sort(){
+    public void stirring_sort(){
         int low = 0;
         int tmp = 0;
         int high = array.length - 1;
@@ -29,7 +29,6 @@ public class Stirring_sort extends Array{
             }
             low+=1;
         }
-        return array;
     }
     }
 
