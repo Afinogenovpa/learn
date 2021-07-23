@@ -1,4 +1,4 @@
-package learning;
+package learning_sort;
 
 public class Stirring_sort extends Array{
 
